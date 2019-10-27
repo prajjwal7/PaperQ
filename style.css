@@ -6,6 +6,10 @@ body{
   height:20vh;
   color:white;
   font-size: 5em;
+  overflow: hidden;
+}
+.Paperq{
+  padding-left:40%;
 }
 .logo{
   background-image: url('img/cycle.jpg');
@@ -22,20 +26,23 @@ button{
   color:white;
 }
 .s{
-  margin-top: 8%;
+  margin-top: 12%;
   padding-left: 4.5%;
 }
 @media screen and (max-width:768px)
 {
-.heading{
-    height:15vh;
-    font-size:3em;
+.Paperq{
+margin-left:-10%!important;
 }
 button{
 height: 100px;
 width: 200px;
 margin-top: 6vh;
-margin-left:22%;
+margin-left:27%;
+}
+.s{
+  margin-top: 12%;
+  margin-left: 8.5%;
 }
 .logo{
   height: 85vh;
