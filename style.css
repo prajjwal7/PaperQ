@@ -29,22 +29,92 @@ button{
   margin-top: 12%;
   padding-left: 4.5%;
 }
-@media screen and (max-width:768px)
+@media screen and (max-height:660px)
 {
 .Paperq{
-margin-left:-10%!important;
+margin-left:-30%!important;
+}
+.heading{
+  text-align: center;
+  padding-left:13%;
 }
 button{
 height: 100px;
 width: 200px;
-margin-top: 6vh;
-margin-left:27%;
+margin-top: 2vh;
+margin-left:24%;
 }
 .s{
-  margin-top: 12%;
-  margin-left: 8.5%;
+  margin-top: 5%;
+  margin-left: 3%;
 }
 .logo{
   height: 85vh;
 }
+}
+
+
+
+
+/* Portrait and Landscape */
+@media screen
+  and (device-width: 360px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 4) {
+
+}
+
+/* Portrait */
+@media screen
+  and (device-width: 360px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 4)
+  and (orientation: portrait) {
+    .Paperq{
+    margin-left:-30%!important;
+    }
+    .heading{
+      text-align: center;
+      padding-left:13%;
+    }
+    button{
+    height: 100px;
+    width: 200px;
+    margin-top: 2vh;
+    margin-left:24%;
+    }
+    .s{
+      margin-top: 5%;
+      margin-left: 3%;
+    }
+    .logo{
+      height: 85vh;
+    }
+}
+
+/* Landscape */
+@media screen
+  and (device-width: 360px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 4)
+  and (orientation: landscape) {
+    .heading{
+      background-color: #282957;
+      height:10vh;
+      color:white;
+      font-size: 3em;
+      overflow: hidden;
+    }
+    .Paperq{
+    margin-left:-30%!important;
+    }
+    .logo{
+      display: inline-flex!important;
+      height:90vh;
+    }
+    .s{
+      margin-top: 1%;
+      margin-left: 2%;
+      font-size:2em;
+    }
 }
